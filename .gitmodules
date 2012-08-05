@@ -34,6 +34,12 @@
 [submodule "sources_plugins/ctrlp.vim"]
 	path = sources_plugins/ctrlp.vim
 	url = git://github.com/kien/ctrlp.vim.git
+[submodule "sources_plugins/autocomplpop.vim"]
+	path = sources_plugins/autocomplpop.vim
+	url = git://github.com/vim-scripts/AutoComplPop.git
+[submodule "sources_plugins/minibufexpl.vim"]
+	path = sources_plugins/minibufexpl.vim
+	url = git://github.com/fholgado/minibufexpl.vim.git
 [submodule "sources_misc/vim-coffee-script"]
 	path = sources_misc/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git

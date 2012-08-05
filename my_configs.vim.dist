@@ -1,0 +1,16 @@
+" Copy this file into my_configs.vim and modify
+
+""""""""""""""""""
+" => GUI Settings
+""""""""""""""""""
+if has("gui_running")
+colorscheme peaksea
+    set guioptions+=T
+
+    if has("gui_gtk2")
+        set guifont=Ubuntu\ Mono\ 11
+    elseif has("gui_win32")
+        set guifont=Consolas:h11:cANSI
+    endif
+endif
+

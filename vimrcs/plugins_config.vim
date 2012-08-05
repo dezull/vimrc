@@ -23,6 +23,20 @@ let g:bufExplorerFindActive=1
 let g:bufExplorerSortBy='name'
 map <leader>o :BufExplorer<cr>
 
+""""""""""""""""""""""""""""""
+" => miniBufExpl plugin
+""""""""""""""""""""""""""""""
+let g:miniBufExplModSelTarget = 1
+let g:miniBufExplorerMoreThanOne = 2
+let g:miniBufExplModSelTarget = 0
+let g:miniBufExplUseSingleClick = 1
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplVSplit = 25
+let g:miniBufExplSplitBelow=0
+
+let g:bufExplorerSortBy = "name"
+autocmd BufRead,BufNew :call MiniBufExplorer
+map <leader>u :TMiniBufExplorer<cr>
 
 """"""""""""""""""""""""""""""
 " => MRU plugin
