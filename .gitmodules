@@ -40,6 +40,12 @@
 [submodule "sources_plugins/minibufexpl.vim"]
 	path = sources_plugins/minibufexpl.vim
 	url = git://github.com/fholgado/minibufexpl.vim.git
+[submodule "sources_plugins/vim-matchit"]
+	path = sources_plugins/vim-matchit
+	url = https://github.com/tsaleh/vim-matchit.git
+[submodule "sources_plugins/html5.vim"]
+	path = sources_plugins/html5.vim
+	url = https://github.com/othree/html5.vim.git
 [submodule "sources_misc/vim-coffee-script"]
 	path = sources_misc/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
