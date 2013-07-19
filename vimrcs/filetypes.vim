@@ -52,3 +52,8 @@ function! CoffeeScriptFold()
     setl foldlevelstart=1
 endfunction
 au FileType coffee call CoffeeScriptFold()
+
+""""""""""""""""""""""""""""""
+" => Ruby section
+""""""""""""""""""""""""""""""
+au FileType ruby set sw=2
