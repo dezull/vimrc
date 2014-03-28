@@ -76,3 +76,6 @@
 [submodule "sources_plugins/vim-json"]
 	path = sources_plugins/vim-json
 	url = https://github.com/elzr/vim-json.git
+[submodule "sources_plugins/jshint2.vim"]
+	path = sources_plugins/jshint2.vim
+	url = https://github.com/Shutnik/jshint2.vim.git

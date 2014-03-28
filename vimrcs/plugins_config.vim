@@ -94,3 +94,10 @@ map <leader>nf :NERDTreeFind<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 au FileType mako vmap <buffer> Si S"i${ _(<esc>2f"a) }<esc>
 vmap Si S)i_<esc>f)
+
+
+""""""""""""""""""""""""""""""
+" => Jshint2
+""""""""""""""""""""""""""""""
+let jshint2_read = 1
+let jshint2_save = 1
