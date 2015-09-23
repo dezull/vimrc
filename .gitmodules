@@ -42,7 +42,7 @@
 	url = git://github.com/fholgado/minibufexpl.vim.git
 [submodule "sources_plugins/vim-matchit"]
 	path = sources_plugins/vim-matchit
-	url = https://github.com/tsaleh/vim-matchit.git
+	url = https://github.com/vim-scripts/matchit.zip.git
 [submodule "sources_plugins/html5.vim"]
 	path = sources_plugins/html5.vim
 	url = https://github.com/othree/html5.vim.git
