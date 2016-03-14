@@ -7,12 +7,14 @@
 [submodule "sources_plugins/tlib"]
 	path = sources_plugins/tlib
 	url = git://github.com/vim-scripts/tlib.git
+    ignore = dirty
 [submodule "sources_plugins/vim-snippets"]
 	path = sources_plugins/vim-snippets
 	url = git://github.com/acustodioo/vim-snippets.git
 [submodule "sources_plugins/bufexplorer.zip"]
 	path = sources_plugins/bufexplorer.zip
 	url = git://github.com/vim-scripts/bufexplorer.zip.git
+    ignore = dirty
 [submodule "sources_plugins/nerdtree"]
 	path = sources_plugins/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
@@ -37,12 +39,15 @@
 [submodule "sources_plugins/autocomplpop.vim"]
 	path = sources_plugins/autocomplpop.vim
 	url = git://github.com/vim-scripts/AutoComplPop.git
+    ignore = dirty
 [submodule "sources_plugins/minibufexpl.vim"]
 	path = sources_plugins/minibufexpl.vim
 	url = git://github.com/fholgado/minibufexpl.vim.git
+    ignore = dirty
 [submodule "sources_plugins/vim-matchit"]
 	path = sources_plugins/vim-matchit
 	url = https://github.com/vim-scripts/matchit.zip.git
+    ignore = dirty
 [submodule "sources_plugins/html5.vim"]
 	path = sources_plugins/html5.vim
 	url = https://github.com/othree/html5.vim.git
@@ -79,3 +84,7 @@
 [submodule "sources_plugins/jshint2.vim"]
 	path = sources_plugins/jshint2.vim
 	url = https://github.com/Shutnik/jshint2.vim.git
+[submodule "sources_plugins/vim-fontsize"]
+	path = sources_plugins/vim-fontsize
+	url = https://github.com/drmikehenry/vim-fontsize.git
+    ignore = dirty
