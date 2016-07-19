@@ -31,8 +31,8 @@ let g:miniBufExplVSplit = 25
 let g:miniBufExplSplitBelow=0
 let g:miniBufExplCheckDupeBufs = 0
 let g:bufExplorerSortBy = "name"
-autocmd BufRead,BufNew :call MiniBufExplorer
-map <leader>u :TMiniBufExplorer<cr>
+autocmd BufRead,BufNew :call MBE
+map <leader>u :MBEToggle<cr>
 
 """"""""""""""""""""""""""""""
 " => MRU plugin
