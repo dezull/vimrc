@@ -24,14 +24,10 @@ map <leader>o :BufExplorer<cr>
 """"""""""""""""""""""""""""""
 " => miniBufExpl plugin
 """"""""""""""""""""""""""""""
-let g:miniBufExplorerMoreThanOne = 2
-let g:miniBufExplUseSingleClick = 1
-let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplBuffersNeeded = 0
 let g:miniBufExplVSplit = 25
-let g:miniBufExplSplitBelow=0
-let g:miniBufExplCheckDupeBufs = 0
-let g:bufExplorerSortBy = "name"
-autocmd BufRead,BufNew :call MBE
+let g:miniBufExplBRSplit = 0
+"autocmd BufRead,BufNew :call MBE
 map <leader>u :MBEToggle<cr>
 
 """"""""""""""""""""""""""""""
@@ -58,7 +54,7 @@ map <leader>j :CtrlP<cr>
 map <c-b> :CtrlPBuffer<cr>
 
 let g:ctrlp_max_height = 20
-let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
+let g:ctrlp_custom_ignore = 'tmp|node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
 
 
 """"""""""""""""""""""""""""""
@@ -88,6 +84,7 @@ set grepprg=/bin/grep\ -nH
 let g:NERDTreeWinPos = "left"
 let NERDTreeShowHidden=0
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
+let NERDTreeMinimalUI=1
 let g:NERDTreeWinSize=35
 map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark
